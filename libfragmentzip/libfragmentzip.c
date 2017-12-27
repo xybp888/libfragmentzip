@@ -6,6 +6,8 @@
 //  Copyright © 2016 tihmstar. All rights reserved.
 //
 
+#define _POSIX_C_SOURCE 200809L
+
 #include <libfragmentzip/libfragmentzip.h>
 #include <stdlib.h>
 #include <string.h>
