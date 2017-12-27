@@ -31,10 +31,10 @@ AC_TYPE_UINT64_T
 AC_FUNC_MALLOC
 AC_CHECK_FUNCS([bzero strdup])
 
+AM_CONDITIONAL(WIN32, test x$win32 = xtrue)
+
 AC_CONFIG_FILES([Makefile
                  include/Makefile
                  libfragmentzip/Makefile
 		 libfragmentzip.pc])
 AC_OUTPUT
-
-AM_CONDITIONAL(WIN32, test x$win32 = xtrue)
