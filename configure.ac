@@ -38,3 +38,4 @@ AC_CONFIG_FILES([Makefile
                  libfragmentzip/Makefile
 		 libfragmentzip.pc])
 AC_OUTPUT
+
